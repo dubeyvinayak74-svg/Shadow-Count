@@ -1,2 +1,18 @@
 # Shadow-Count
-A real-time smart occupancy monitoring system built using YOLO and OpenCV. This project detects people, tracks their movement across an entry/exit line, and calculates the live occupancy inside any space. It also logs data, generates graphs, and visualizes the flow of people for better crowd analysis and management.
+
+A real-time smart occupancy monitoring system built using YOLO and OpenCV.  
+This project detects people, tracks their movement across a defined entry/exit line, and calculates live occupancy. It logs events to CSV and can generate simple visualizations for analysis.
+
+---
+
+## Repository structure
+Shadow-Count/
+├── code/
+│ └── people_counter.py
+├── data/
+│ └── people_log.csv
+├── docs/
+│ ├── 30-8-ShadowCount.pdf
+│ └── 30-8-ShadowCount(PPT).pptx
+├── .gitignore
+└── README.md
