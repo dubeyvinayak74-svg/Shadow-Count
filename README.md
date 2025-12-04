@@ -16,3 +16,18 @@ Shadow-Count/
 │ └── 30-8-ShadowCount(PPT).pptx
 ├── .gitignore
 └── README.md
+
+
+---
+
+## Installation
+
+This project has already been tested and set up on the developer’s system.  
+However, if you want to run it on a new device, follow these installation steps:
+
+### 1️⃣ Install required Python libraries
+Use the following command:
+
+```bash
+pip install ultralytics opencv-python cvzone matplotlib numpy
+
